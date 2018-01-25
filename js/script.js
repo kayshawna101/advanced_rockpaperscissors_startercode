@@ -28,3 +28,16 @@
 
 // DOCUMENT READY FUNCTION
 
+$(document).ready(fuction(){
+  alert("hi")     
+});
+
+$("#submit-name").click(function(){
+    console.log("test");
+  var a = $("#name").val();
+  $("#greeting").text(a);
+});
+
+$("#submit-name").click(function(){
+alert( $("#name").val());
+});
